@@ -17,7 +17,7 @@
 - Công cụ: Git, GitHub, VS Code  
 
 ## 📂 Dự án học tập  
-- [📖 Software Engineering Lab]([(https://github.com/Lanne-0402/Nhap-mon-CNPM)])  
+- [📖 Software Engineering Lab](https://github.com/Lanne-0402/Nhap-mon-CNPM)  
 ---
 
 ✨ Cảm ơn đã ghé thăm trang GitHub của tôi!  
