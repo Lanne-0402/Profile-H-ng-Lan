@@ -7,7 +7,7 @@ body {
   line-height: 1.6;
 }
 
-/* ==== Header ==== */
+
 header {
   background: linear-gradient(135deg, #0078d7, #5b9bd5);
   color: white;
@@ -16,12 +16,29 @@ header {
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #007acc;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 .name {
   color: #fffacd;
   font-weight: bold;
 }
 
-/* ==== Main ==== */
 main {
   max-width: 850px;
   margin: 40px auto;
@@ -50,7 +67,6 @@ ul li {
   padding: 6px 0;
 }
 
-/* ==== Liên kết ==== */
 a {
   color: #0078d7;
   text-decoration: none;
@@ -60,7 +76,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ==== Cảm ơn ==== */
 .thanks {
   text-align: center;
   font-style: italic;
@@ -68,7 +83,6 @@ a:hover {
   margin-top: 15px;
 }
 
-/* ==== Footer ==== */
 footer {
   text-align: center;
   background: #0078d7;
@@ -78,7 +92,6 @@ footer {
   font-size: 14px;
 }
 
-/* ==== Responsive ==== */
 @media (max-width: 600px) {
   main {
     margin: 20px;
